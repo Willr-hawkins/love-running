@@ -15,6 +15,10 @@ body{
     font-family: 'lato', sans-serif;
 }
 
+h1{
+    font-family: 'oswald', sans-serif;
+}
+
 header{
     background-color: lightcoral;
 }
