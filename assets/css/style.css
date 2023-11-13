@@ -213,6 +213,16 @@ list-style-type: none;
     padding: 5%;
     color: #3a3a3a;
 }
+
+/* Media query: Large or landscape phones (576px and up) */
+
+@media screen and (min-width: 576px) {
+    #photos {
+        column-count: 2;
+        column-gap: 0;
+    }
+}
+
 /* media query: tablets and larger (768px and up) */
 
 @media screen and (min-width: 768px) {
@@ -271,8 +281,12 @@ list-style-type: none;
             align-self: flex-end;
         }
 
-        
+     #photos{
+        column-count: 3;
+     }   
 }
+
+
 
 /* media query: laptops and larger (992px and up) */
 
@@ -282,6 +296,9 @@ list-style-type: none;
         border-bottom: 1px solid #3a3a3a;
     }
     
+    #photos{
+        column-count: 4;
+    }
 }
 
 /* media query: screens (1200px and wider) */
